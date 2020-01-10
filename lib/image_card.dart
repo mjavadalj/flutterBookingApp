@@ -66,6 +66,7 @@ class ImageCard extends StatelessWidget {
                   child: Align(
                     alignment: Alignment.bottomLeft,
                     child: Padding(
+                      padding: EdgeInsets.all(5),
                       child: RichText(
                         text: TextSpan(
                           //test alt
